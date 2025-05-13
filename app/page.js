@@ -158,3 +158,48 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+// "use client";
+// import React from "react";
+// import Cover from "./components/cover";
+// import Image from "next/image";
+
+// const HomePage = () => {
+//   return (
+//     <div className="min-h-screen flex flex-col">
+//       <Cover />
+//       <div className="bg-white py-28">
+//         <div className="container   flex flex-col md:flex-row items-center justify-between gap-2 px-10">
+//           {/* Left section */}
+//           <div className="flex flex-col pl-18 gap-24 justify-start items-start ">
+//             <div className="">
+//               <p className=" text-5xl text-black font-medium leading-tight ">
+//                 <strong>
+//                   We target slow <br /> twitch muscle fibres.
+//                 </strong>
+//               </p>
+//             </div>
+//             <div className="">
+//               <button className="bg-black text-white py-6 px-28 self-start font-light">
+//                 <strong>Learn the science behind lagree</strong>
+//               </button>
+//             </div>
+//           </div>
+
+//           {/* Right section - Image container */}
+//           <div className="mr-10 h-fit w-full md:w-1/2 flex items-center justify-center">
+//             <Image
+//               src="/pic1.jpg"
+//               alt="Lagree fitness"
+//               className="w-full  object-cover"
+//               width={500}
+//               height={200}
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HomePage;

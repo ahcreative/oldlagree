@@ -1,6 +1,6 @@
 "use client";
 import { Lora } from "next/font/google";
-import Header from "../components/header";
+import Header from "../components/header1";
 
 const lora = Lora({
   subsets: ["latin"],

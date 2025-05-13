@@ -52,9 +52,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
-      >
+      <body className={`} antialiased`}>
         <Toaster position="top-center" reverseOrder={false} />
         {children}
       </body>
