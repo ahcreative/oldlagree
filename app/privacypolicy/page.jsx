@@ -1,6 +1,6 @@
 "use client";
 import { Lora } from "next/font/google";
-import Header from "../components/header1";
+import Header from "../components/header";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
                   </li>
                   <li>
                     <strong>Website</strong> refers to Lagree Room, accessible
-                    from www.lagreeeliteform.com
+                    from www.lagreepulse.com
                   </li>
                   <li>
                     <strong>You</strong> means the individual accessing or using
@@ -539,7 +539,7 @@ const PrivacyPolicy = () => {
                   <li>By email: setarehkopahi@gmail.com</li>
                   <li>
                     By visiting this page on our website:
-                    www.lagreeeliteform.com/privacypolicy
+                    www.lagreepulse.com/privacypolicy
                   </li>
                 </ul>
               </div>

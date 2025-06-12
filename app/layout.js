@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Poppins } from "next/font/google"; // <-- Add this
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
+import PageTransitionLoading from "./components/PageTransitionLoading";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,26 +21,26 @@ const poppins = Poppins({
 
 // For metadata
 export const metadata = {
-  title: "Lagree EliteForm",
+  title: {
+    default: "Lagree Pulse",
+    template: "%s | Lagree Pulse",
+  },
   description:
-    "Official website for Lagree EliteForm — innovative fitness equipment and training solutions.",
+    "Official website for Lagree Pulse — innovative fitness equipment and training solutions.",
   keywords: [
-    "Lagree",
-    "EliteForm",
+    "Lagree Pulse",
     "Fitness Equipment",
     "Lagree Method",
     "Strength Training",
     "Home Gym",
   ],
-  authors: [
-    { name: "Lagree EliteForm Team", url: "https://lagreeeliteform.com" },
-  ],
+  authors: [{ name: "Lagree Pulse Team", url: "https://lagreepulse.com" }],
   openGraph: {
-    title: "Lagree EliteForm",
+    title: "Lagree Pulse",
     description:
-      "Experience next-level fitness with Lagree EliteForm's cutting-edge equipment.",
-    url: "https://lagreeeliteform.com",
-    siteName: "Lagree EliteForm",
+      "Experience next-level fitness with Lagree Pulse's cutting-edge equipment.",
+    url: "https://lagreepulse.com",
+    siteName: "Lagree Pulse",
     type: "website",
   },
 };
@@ -52,7 +53,8 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`} antialiased`}>
+      <body className={`antialiased`}>
+        <PageTransitionLoading />
         <Toaster position="top-center" reverseOrder={false} />
         {children}
       </body>
