@@ -36,7 +36,7 @@ const HomePage = () => {
             </h1>
 
             <p className="text-lg md:px-0 px-5 md:text-2xl text-white mb-4 tracking-wider">
-              Your new favourite workout is coming to FalseCreek.
+              Your new favourite workout is coming to Downtown Vancouver.
             </p>
             <p className="text-lg md:px-0 px-5 md:text-2xl text-white mb-4 tracking-wider">
               {" "}
@@ -44,7 +44,7 @@ const HomePage = () => {
             </p>
             <p className="text-lg md:px-0 px-5 md:text-2xl text-white mb-4 tracking-wider">
               {" "}
-              Join our email list for updates on intro offers & our Spring 2025
+              Join our email list for updates on intro offers & our Fall 2025
               opening date.
             </p>
           </div>
